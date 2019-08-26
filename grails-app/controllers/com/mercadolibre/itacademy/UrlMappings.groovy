@@ -19,7 +19,5 @@ class UrlMappings {
 
         "/articulos" (resources: "articulo")
 
-
-
     }
 }

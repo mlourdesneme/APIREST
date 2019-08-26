@@ -2,6 +2,8 @@ package com.mercadolibre.itacademy
 
 import grails.rest.RestfulController
 
+import javax.xml.bind.ValidationException
+
 class ArticuloController extends RestfulController<Articulo>{
 
     static responseFormats = ['json']
@@ -19,6 +21,6 @@ class ArticuloController extends RestfulController<Articulo>{
         } else {
             respond Articulo.list()
         }
-
     }
+
 }
